@@ -1,5 +1,16 @@
 set expandtab
 set tabstop=4
+set number
+set autoindent
+set list
+set hlsearch
+set ignorecase
+set wrap
+set ruler
+set eol
+set smartcase
+set wildmenu
+set showmatch
 
 function! s:Exec()
     exe "!" . &ft . " %"        
