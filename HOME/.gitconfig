@@ -1,3 +1,5 @@
+[include]
+  path = .gitconfig.local
 [user]
   email = hashimoto.ryota@lab.ntt.co.jp
   name = Ryota HASHIMOTO
@@ -8,4 +10,3 @@
   status = auto
 [http]
   sslVerify = false
-  proxy = host:port
