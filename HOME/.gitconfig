@@ -1,18 +1,11 @@
 [user]
-	email = hashimoto.ryota@lab.ntt.co.jp
-	name = HASHIMOTO Ryota
-[core]
-	excludesfile = /home/hashimotor/.gitignore
-[alias]
-	st = status
-	ci = commit
-	co = checkout
-	br = branch
+  email = hashimoto.ryota@lab.ntt.co.jp
+  name = Ryota HASHIMOTO
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
 [http]
-	sslVerify = false
-
+  sslVerify = false
+  proxy = host:port
